@@ -27,5 +27,4 @@ CREATE TABLE todoapp.tasks (
     ),
 
     author_user_id INTEGER NOT NULL REFERENCES todoapp.users(id)
-
-)
+);
